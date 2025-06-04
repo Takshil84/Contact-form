@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+.container {
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  height: 1em;
+}
+
+#successMessage {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
